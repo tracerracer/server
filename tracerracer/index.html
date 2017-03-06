@@ -2,6 +2,7 @@
 <html>
   <head>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+
    <script>
      $(document).ready(function(){
          $("#update").click(function(){
@@ -34,11 +35,14 @@
          });
      });
      </script>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"> 
      <title>Tracer Racer</title>
-   </head>
+   
+</head>
    <body> 
      <h1>Tracer Racer</h1>
      <p>
+	<section>
        <h2>Select Timezone</h2>
        <select>
          <option value="America/Adak">Adak</option>
@@ -73,12 +77,16 @@
          <option value="Pacific/Honolulu">Honolulu</option>
        </select>
      </p>
+	</section>
+	<section>
      <p>
        <h2>Enter Zip Code</h2>
        <form action="">
          <input type="text" id="zip_text" value="95051" maxlength="5">
        </form>
      </p>
+	</section>
+	<section>
      <p>
        <h2>Choose Message Type</h2>
        <form action="">
@@ -88,11 +96,14 @@
          <input type="text" id="custom_text" value="hello" maxlength="10"> <br> 
        </form>
      </p>
+	</section>
+	<section>
      <p>
        <button id=update>Update Settings</button>
      </p>
      <p> 
        <button id=start>Start Car</button>
      </p>
+	</section>
   </body>
 </html>

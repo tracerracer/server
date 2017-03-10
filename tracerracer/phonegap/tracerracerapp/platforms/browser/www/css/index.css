@@ -28,11 +28,18 @@ h1{
 }
 select{
 	background: #FF8000;
+    font-size:2em;
+}
 
-}
-input{
-	background: #FF8000;
-}
 button{
 	background: #FF8000;
+    font-size:2em;
 }
+.text{
+	background: #FF8000;
+    font-size:2em;
+}
+.radio {
+    font-size:2em;
+    width: 1em;
+    height: 1em; }
